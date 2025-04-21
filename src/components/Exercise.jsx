@@ -39,7 +39,8 @@ const Exercise = () => {
       <h1 className="text-3xl font-bold mb-6">Exercise Tracker</h1>
       <div className="mb-8 p-4 bg-green-50 rounded-lg">
         <h3 className="text-xl font-semibold">Today's Total: {totalExercise} minutes</h3>
-        <p>Goal: {dailyGoals.exercise} minutes</p>
+        <p className="text-gray-700">Goal: {dailyGoals.exercise} minutes</p>
+        
       </div>
       
       <form onSubmit={handleSubmit} className="bg-white p-6 rounded-lg shadow mb-8">
