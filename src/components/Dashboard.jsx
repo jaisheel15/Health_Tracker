@@ -7,11 +7,13 @@ const Dashboard = () => {
 
  
   const totalExercise = exercises.reduce((sum, entry) => sum + entry.duration, 0);
+
   const totalCalories = nutrition.reduce((sum, entry) => sum + entry.calories, 0);
 
   return (
     <div className="max-w-6xl mx-auto">
-      <h1 className="text-3xl font-bold mb-8 text-center ">Health Dashboard</h1>
+      
+      <h1 className="text-3xl font-bold mb-8 text-center ">Health Dashboard</h1>       
       
     
         <div className="bg-white p-6 rounded-lg shadow">

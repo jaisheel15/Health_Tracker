@@ -28,7 +28,7 @@ export const HealthProvider = ({ children }) => {
 
     fetchData(exerciseUrl, setExercises);
     fetchData(nutritionUrl, setNutrition);
-    
+
   }, []);
 
   const addData = async (url, newData) => {
