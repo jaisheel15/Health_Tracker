@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { HealthProvider } from './context/HealthContext';
 import Dashboard from './components/Dashboard';
 import Exercise from './components/Exercise';
+import GoalForm from './components/GoalForm';
 import Nutrition from './components/Nutrition';
 import Navbar from './components/Navbar';
 
@@ -16,6 +17,8 @@ function App() {
               <Route path="/" element={<Dashboard />} />
               <Route path="/exercise" element={<Exercise />} />
               <Route path="/nutrition" element={<Nutrition />} />
+              <Route path="/goals" element={<GoalForm/>} />
+          
             </Routes>
           </div>
         </div>
